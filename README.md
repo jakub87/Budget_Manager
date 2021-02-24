@@ -12,7 +12,7 @@ Your program should process every line the user inputs. To end the input, the us
 
 The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
 
-```bash
+```
 > Almond 250gm $35.43
 > LEGO DUPLO Town Farm Animals $10.10
 > Sensodyne Pronamel Toothpaste $19.74
@@ -50,7 +50,7 @@ Follow this rule in the next stages.
 
 The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
 
-```bash
+```
 Choose your action:
 1) Add income
 2) Add purchase
@@ -138,7 +138,7 @@ The function allows you to output the shopping list by type. After selecting the
 
 The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
 
-```bash
+```
 Choose your action:
 1) Add income
 2) Add purchase
@@ -259,7 +259,7 @@ Use the **purchases.txt** file to store purchases.
 The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
 
 Example 1:
-```bash
+```
 Choose your action:
 1) Add income
 2) Add purchase
@@ -331,7 +331,7 @@ Choose your action:
 Bye!
 ```
 Example 2
-```bash
+```
 Choose your action:
 1) Add income
 2) Add purchase
@@ -433,7 +433,7 @@ There are three of them:
 
 The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
 
-```bash
+```
 Choose your action:
 1) Add income
 2) Add purchase
