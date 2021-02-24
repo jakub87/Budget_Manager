@@ -118,3 +118,299 @@ Choose your action:
 
 Bye!
 ```
+
+# Stage 3/5
+
+## Description
+To better control the expenses, we need to categorize our purchases. It helps to see how exactly your budget is distributed: you may be actually quite surprised!
+
+Implement a function that assigns a purchase to a specific category.
+
+The program should have the following categories:
+Food
+Clothes
+Entertainment
+Other
+
+The function allows you to output the shopping list by type. After selecting the action of showing the list of expenses, offer to show either a certain category or a general list. At the end print the total amount of purchases that are on the list.
+
+## Example
+
+The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
+
+```bash
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+0) Exit
+> 3
+
+The purchase list is empty!
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+0) Exit
+> 2
+
+Choose the type of purchase
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) Back
+> 1
+
+Enter purchase name:
+> Milk
+Enter its price:
+> 3.5
+Purchase was added!
+
+Choose the type of purchase
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) Back
+> 5
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+0) Exit
+> 3
+
+Choose the type of purchases
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) All
+6) Back
+> 4
+
+Other:
+The purchase list is empty!
+
+Choose the type of purchases
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) All
+6) Back
+> 1
+
+Food:
+Milk $3.50
+Total sum: $3.50
+
+Choose the type of purchases
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) All
+6) Back
+> 5
+
+All:
+Milk $3.50
+Total sum: $3.50
+
+Choose the type of purchases
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) All
+6) Back
+> 6
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+0) Exit
+> 0
+
+Bye!
+```
+
+# Stage 4/5
+
+## Description
+What's the point of counting the money if the results are lost and forgotten once you close the program? To allow for some long-term budget planning, we need to save purchases to file. Add items Save and Load to the menu.
+
+Save should save all purchases to the file.
+Load should load all purchases from the file.
+
+Use the **purchases.txt** file to store purchases.
+## Example
+
+The greater-than symbol followed by a space (> ) represents the user input. Notice that it's not part of the input.
+
+Example 1:
+```bash
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+0) Exit
+> 1
+
+Enter income:
+> 1000
+Income was added!
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+0) Exit
+> 2
+
+Choose the type of purchase
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) Back
+> 1
+
+Enter purchase name:
+> Almond 250g
+Enter its price:
+> 35.43
+Purchase was added!
+
+Choose the type of purchase
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) Back
+> 5
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+0) Exit
+> 5
+
+Purchases were saved!
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+0) Exit
+> 0
+
+Bye!
+```
+Example 2
+```bash
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+0) Exit
+> 6
+
+Purchases were loaded!
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+0) Exit
+> 3
+
+Choose the type of purchases
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) All
+6) Back
+> 1
+
+Food:
+Almond 250g $35.43
+Total sum: $35.43
+
+Choose the type of purchases
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) All
+6) Back
+> 5
+
+All:
+Almond 250g $35.43
+Total sum: $35.43
+
+Choose the type of purchases
+1) Food
+2) Clothes
+3) Entertainment
+4) Other
+5) All
+6) Back
+> 6
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+0) Exit
+> 4
+
+Balance: $964.57
+
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+0) Exit
+> 0
+
+Bye!
+```
+
