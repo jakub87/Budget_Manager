@@ -16,7 +16,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int mainMenuSelect;
-
         BudgetManager budgetManager = new BudgetManager();
         PersistentController persistentController = new PersistentController();
 

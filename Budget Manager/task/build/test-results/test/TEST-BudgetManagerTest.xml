@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BudgetManagerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-24T13:20:54" hostname="DESKTOP-KSMPIDG" time="1.028">
+<testsuite name="BudgetManagerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-25T09:33:48" hostname="DESKTOP-KSMPIDG" time="2.559">
   <properties/>
-  <testcase name="start" classname="BudgetManagerTest" time="1.028"/>
+  <testcase name="start" classname="BudgetManagerTest" time="2.559"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 

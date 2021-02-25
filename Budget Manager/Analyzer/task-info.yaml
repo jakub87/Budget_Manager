@@ -805,12 +805,9 @@ files:
 - name: src/budget/model/Purchase.java
   visible: true
   learner_created: true
-- name: src/budget/index.html
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/76/stages/425/implement#comment
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 24 Feb 2021 13:20:55 UTC
+  time: Thu, 25 Feb 2021 09:33:51 UTC
 record: 5
